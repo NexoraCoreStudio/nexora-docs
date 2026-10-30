@@ -27,10 +27,10 @@ Depuis Windows 11, dans ce dossier :
 .\build.ps1 -MakeInstaller
 ```
 
-`build.ps1 -Tests` compile également Admin dans `artifacts/admin-build`, sans remplacer son exécutable actif. Les tests xUnit produisent des rapports TRX dans `TestResults`. Les deux suites fonctionnelles exécutables sont lancées avec `dotnet run`.
+`build.ps1 -Tests` compile également Admin dans `artifacts/admin-build`, sans remplacer son exécutable actif. Les tests xUnit produisent des rapports TRX dans `TestResults`. Les suites fonctionnelles exécutables sont lancées avec `dotnet run`.
 
 Pour tester uniquement le coffre : `dotnet run --project nexora-crypt/Nexora.Crypt.Tests -c Release`. Pour FIDO : `dotnet test nexora-fido/Nexora.Fido.sln -c Release`. Pour le code USB, cloner en plus `nexora-fido`.
 
-La version de l'application est définie dans `nexora/Nexora.Gui/Nexora.Gui.csproj` (actuellement 1.5.5). Admin possède sa propre version. Aucun pilote USB/IP n'est inclus. Consulter `AUDIT_2026-10-30.md` pour l'état initial et `CORRECTIONS_2026-10-30.md` pour les correctifs et leurs validations. Les tests matériels et les parcours d'installation en VM restent nécessaires avant distribution.
+La version de l'application est définie dans `nexora/Nexora.Gui/Nexora.Gui.csproj` (actuellement 1.6.0). Admin possède sa propre version. Aucun pilote USB/IP n'est inclus. Consulter `AUDIT_2026-10-30.md` pour l'état initial et `CORRECTIONS_2026-10-30.md` pour les correctifs et leurs validations. Les tests matériels et les parcours d'installation en VM restent nécessaires avant distribution.
 
 **Important** : aucune clé privée ou certificat utilisateur n'est embarqué. N'utilise pas le code source comme sauvegarde des identifiants FIDO2. Avant de créer les dépôts publics, vérifier les licences et origines des composants Open Source incorporés, et réaliser une revue de sécurité (source dérivé de `keinPlan/virtual-fido`, licence non identifiée automatiquement).

@@ -16,10 +16,11 @@ if ($Tests) {
         'nexora-fido\Nexora.Fido.Tests\Nexora.Fido.Tests.csproj',
         'nexora-usb\Nexora.Usb.Tests\Nexora.Usb.Tests.csproj',
         'nexora\Nexora.Tests\Nexora.Tests.csproj',
+        'nexora-installer\Nexora.Installer.Tests\Nexora.Installer.Tests.csproj',
         'nexora-crypt\Nexora.Crypt.Tests\Nexora.Crypt.Tests.csproj',
         'nexora-fido\Nexora.SecretManager.VaultSecretStore.Tests\Nexora.SecretManager.VaultSecretStore.Tests.csproj'
     )) {
-        if ($test -like '*Nexora.Crypt.Tests*' -or $test -like '*Nexora.SecretManager.VaultSecretStore.Tests*') {
+        if ($test -like '*Nexora.Crypt.Tests*' -or $test -like '*Nexora.SecretManager.VaultSecretStore.Tests*' -or $test -like '*Nexora.Installer.Tests*') {
             & dotnet run --project (Join-Path $root $test) -c Release --no-build
         } else {
             & dotnet test (Join-Path $root $test) -c Release --no-build --no-restore --logger trx --results-directory (Join-Path $root 'TestResults') --blame-hang-timeout 60s --blame-hang-dump-type none

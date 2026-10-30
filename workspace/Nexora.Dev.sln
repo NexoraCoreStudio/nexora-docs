@@ -1,0 +1,119 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Fido", "nexora-fido\Nexora.Fido\Nexora.Fido.csproj", "{06F74AA8-975D-504C-8345-9607A7CBE5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Fido.Tests", "nexora-fido\Nexora.Fido.Tests\Nexora.Fido.Tests.csproj", "{6B231188-A274-5C4D-AD30-6DB79A092784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager", "nexora-fido\Nexora.SecretManager\Nexora.SecretManager.csproj", "{07D6BE6A-F969-559E-B1E1-96AC44B7CA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager.FileBasedSecretStore", "nexora-fido\Nexora.SecretManager.FileBasedSecretStore\Nexora.SecretManager.FileBasedSecretStore.csproj", "{9CF7A379-EC9A-5AEF-9500-7EA0FC84E4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager.MemoryBasedSecretStore", "nexora-fido\Nexora.SecretManager.MemoryBasedSecretStore\Nexora.SecretManager.MemoryBasedSecretStore.csproj", "{27592E2D-54D8-5101-AC2D-2936A7572059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager.MtlsBasedSecretStoreClient", "nexora-fido\Nexora.SecretManager.MtlsBasedSecretStoreClient\Nexora.SecretManager.MtlsBasedSecretStoreClient.csproj", "{6113E217-4D63-5512-86EB-D19062C56080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager.MtlsBasedSecretStoreServer", "nexora-fido\Nexora.SecretManager.MtlsBasedSecretStoreServer\Nexora.SecretManager.MtlsBasedSecretStoreServer.csproj", "{C71BE2B4-45DB-5D5E-A626-4D8C822F3BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Usb", "nexora-usb\Nexora.Usb\Nexora.Usb.csproj", "{5C1F262D-4533-59A6-A8D8-6D470B9D3102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Usb.Tests", "nexora-usb\Nexora.Usb.Tests\Nexora.Usb.Tests.csproj", "{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Gui", "nexora\Nexora.Gui\Nexora.Gui.csproj", "{0C9D8442-554C-5B53-A0B2-A960B1F4593F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Tests", "nexora\Nexora.Tests\Nexora.Tests.csproj", "{84AD4111-CD1D-5A10-B9CB-16EA94179817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Installer", "nexora-installer\Nexora.Installer\Nexora.Installer.csproj", "{770ABE91-9A8D-5370-AB42-B509C8562EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Crypt", "nexora-crypt\Nexora.Crypt\Nexora.Crypt.csproj", "{AD4ADCEA-15AC-556D-9E7B-467165378D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Crypt.Tests", "nexora-crypt\Nexora.Crypt.Tests\Nexora.Crypt.Tests.csproj", "{5BE8F59D-1197-5452-B4A1-574D13ED5D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager.VaultSecretStore", "nexora-fido\Nexora.SecretManager.VaultSecretStore\Nexora.SecretManager.VaultSecretStore.csproj", "{4D90660D-F8DD-58AD-8520-31D1099C15F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.SecretManager.VaultSecretStore.Tests", "nexora-fido\Nexora.SecretManager.VaultSecretStore.Tests\Nexora.SecretManager.VaultSecretStore.Tests.csproj", "{027AD7E4-1720-5AD4-82B5-5EF24521BB1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nexora-installer", "nexora-installer", "{CC4C5881-8A61-4ABD-A5DD-79587D64ED40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Installer.Tests", "nexora-installer\Nexora.Installer.Tests\Nexora.Installer.Tests.csproj", "{EE004BA5-C458-4982-84C7-49FCBBB966E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F74AA8-975D-504C-8345-9607A7CBE5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F74AA8-975D-504C-8345-9607A7CBE5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F74AA8-975D-504C-8345-9607A7CBE5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F74AA8-975D-504C-8345-9607A7CBE5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B231188-A274-5C4D-AD30-6DB79A092784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B231188-A274-5C4D-AD30-6DB79A092784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B231188-A274-5C4D-AD30-6DB79A092784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B231188-A274-5C4D-AD30-6DB79A092784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D6BE6A-F969-559E-B1E1-96AC44B7CA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D6BE6A-F969-559E-B1E1-96AC44B7CA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D6BE6A-F969-559E-B1E1-96AC44B7CA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D6BE6A-F969-559E-B1E1-96AC44B7CA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF7A379-EC9A-5AEF-9500-7EA0FC84E4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF7A379-EC9A-5AEF-9500-7EA0FC84E4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF7A379-EC9A-5AEF-9500-7EA0FC84E4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF7A379-EC9A-5AEF-9500-7EA0FC84E4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27592E2D-54D8-5101-AC2D-2936A7572059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27592E2D-54D8-5101-AC2D-2936A7572059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27592E2D-54D8-5101-AC2D-2936A7572059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27592E2D-54D8-5101-AC2D-2936A7572059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6113E217-4D63-5512-86EB-D19062C56080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6113E217-4D63-5512-86EB-D19062C56080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6113E217-4D63-5512-86EB-D19062C56080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6113E217-4D63-5512-86EB-D19062C56080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71BE2B4-45DB-5D5E-A626-4D8C822F3BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71BE2B4-45DB-5D5E-A626-4D8C822F3BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71BE2B4-45DB-5D5E-A626-4D8C822F3BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71BE2B4-45DB-5D5E-A626-4D8C822F3BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9D8442-554C-5B53-A0B2-A960B1F4593F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9D8442-554C-5B53-A0B2-A960B1F4593F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9D8442-554C-5B53-A0B2-A960B1F4593F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9D8442-554C-5B53-A0B2-A960B1F4593F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AD4111-CD1D-5A10-B9CB-16EA94179817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AD4111-CD1D-5A10-B9CB-16EA94179817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AD4111-CD1D-5A10-B9CB-16EA94179817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AD4111-CD1D-5A10-B9CB-16EA94179817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770ABE91-9A8D-5370-AB42-B509C8562EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770ABE91-9A8D-5370-AB42-B509C8562EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770ABE91-9A8D-5370-AB42-B509C8562EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770ABE91-9A8D-5370-AB42-B509C8562EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4ADCEA-15AC-556D-9E7B-467165378D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4ADCEA-15AC-556D-9E7B-467165378D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4ADCEA-15AC-556D-9E7B-467165378D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4ADCEA-15AC-556D-9E7B-467165378D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE8F59D-1197-5452-B4A1-574D13ED5D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE8F59D-1197-5452-B4A1-574D13ED5D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE8F59D-1197-5452-B4A1-574D13ED5D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE8F59D-1197-5452-B4A1-574D13ED5D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D90660D-F8DD-58AD-8520-31D1099C15F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D90660D-F8DD-58AD-8520-31D1099C15F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D90660D-F8DD-58AD-8520-31D1099C15F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D90660D-F8DD-58AD-8520-31D1099C15F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027AD7E4-1720-5AD4-82B5-5EF24521BB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027AD7E4-1720-5AD4-82B5-5EF24521BB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027AD7E4-1720-5AD4-82B5-5EF24521BB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027AD7E4-1720-5AD4-82B5-5EF24521BB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE004BA5-C458-4982-84C7-49FCBBB966E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE004BA5-C458-4982-84C7-49FCBBB966E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE004BA5-C458-4982-84C7-49FCBBB966E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE004BA5-C458-4982-84C7-49FCBBB966E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE004BA5-C458-4982-84C7-49FCBBB966E2} = {CC4C5881-8A61-4ABD-A5DD-79587D64ED40}
+	EndGlobalSection
+EndGlobal
